@@ -1,4 +1,19 @@
+# data files
 data/*.csv
-__pycache__/
+data/*.tsv
+data/raw/
+data/processed/
+data/features/
+
+# notebooks
 .ipynb_checkpoints/
-.env
+
+# python
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.Rhistory
