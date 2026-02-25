@@ -6,6 +6,14 @@ data/processed/
 data/features/
 
 # notebooks
+# notebooks artifacts
+notebooks/results/
+
+notebooks/results/
+results/figures/x/
+
+# misc / temp
+results/figures/x/
 .ipynb_checkpoints/
 
 # python

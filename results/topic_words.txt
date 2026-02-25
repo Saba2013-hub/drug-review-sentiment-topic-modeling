@@ -1,0 +1,145 @@
+=== LDA (ALL) ===
+
+Topic 0:
+day(4618.7), pain(4107.6), take(3155.2), effect(2195.7), year(1799.0), be(1776.8), no(1746.7), work(1609.7), infection(1510.0), drug(1478.7)
+
+Topic 1:
+sleep(6223.0), be(5808.7), feel(5207.1), night(4143.3), take(3925.8), like(3584.4), work(3440.9), do(3304.0), day(3267.5), hour(2586.0)
+
+Topic 2:
+month(6976.7), pill(6474.7), period(6192.7), have(6184.3), control(4976.6), be(4964.6), no(4466.8), birth(4341.9), gain(4238.2), weight(3919.8)
+
+Topic 3:
+take(4553.8), day(3324.5), work(2959.6), effect(2853.3), migraine(2682.6), headache(2197.7), blood(1932.6), mg(1813.8), year(1763.0), medication(1752.8)
+
+Topic 4:
+be(6291.1), period(5796.9), day(4822.6), get(4327.3), week(3343.7), have(3229.7), month(3039.7), do(2573.7), take(2515.2), bleed(2326.1)
+
+Topic 5:
+feel(3862.1), like(1915.4), year(1644.8), go(1411.2), doctor(1362.4), be(1289.2), get(1261.5), day(1245.3), life(1242.5), well(1201.4)
+
+Topic 6:
+skin(3390.0), acne(2829.8), be(2621.5), face(2056.7), month(1881.1), day(1859.9), clear(1785.8), week(1768.4), bad(1591.9), work(1565.9)
+
+Topic 7:
+eat(4298.0), lose(4010.2), weight(3568.0), day(3255.4), be(3252.8), start(3117.9), week(2680.9), take(2228.6), drink(2097.4), pound(1936.8)
+
+Topic 8:
+mg(8245.5), anxiety(6314.8), feel(5150.2), take(4948.3), effect(4628.1), year(4555.9), depression(4448.1), be(3913.1), day(3809.6), week(3417.7)
+
+Topic 9:
+pain(8155.9), year(3118.1), day(2247.8), work(2079.8), month(1891.0), take(1789.2), no(1689.4), mg(1675.4), effect(1520.7), week(1416.0)
+
+
+=== LDA (POS) ===
+
+Topic 0:
+mg, day, dose, take, year, be, effect, work, dosage, night
+
+Topic 1:
+skin, acne, be, month, clear, face, week, year, have, work
+
+Topic 2:
+day, take, sleep, work, be, night, hour, feel, pill, do
+
+Topic 3:
+day, year, effect, take, no, infection, feel, go, work, time
+
+Topic 4:
+weight, lose, week, start, eat, be, month, day, effect, pound
+
+Topic 5:
+day, drink, be, work, take, water, no, do, bad, taste
+
+Topic 6:
+work, year, be, migraine, drug, life, medication, take, try, effect
+
+Topic 7:
+period, be, have, month, no, pill, get, day, control, birth
+
+Topic 8:
+pain, day, work, take, help, year, doctor, feel, medicine, relief
+
+Topic 9:
+feel, anxiety, be, life, year, depression, take, have, effect, work
+
+
+=== LDA (NEG) ===
+
+Topic 0:
+month, year, no, doctor, work, blood, injection, drug, time, pain
+
+Topic 1:
+take, sleep, day, feel, like, time, stop, effect, start, week
+
+Topic 2:
+day, take, pain, effect, stop, severe, bad, feel, headache, start
+
+Topic 3:
+be, day, feel, take, hour, like, pain, night, bad, do
+
+Topic 4:
+period, month, be, bleed, day, week, get, have, pill, start
+
+Topic 5:
+pain, month, get, bad, remove, cramp, have, year, mirena, feel
+
+Topic 6:
+weight, gain, be, have, lose, no, month, pound, feel, sex
+
+Topic 7:
+drug, be, effect, do, medication, work, take, cause, bad, know
+
+Topic 8:
+pill, month, acne, control, be, have, birth, bad, take, skin
+
+Topic 9:
+mg, feel, anxiety, take, be, day, have, start, week, effect
+
+
+=== BERTopic (ALL) [PCA+KMeans, stratified sample=5000] ===
+
+Topic 0 (n=549):
+anxiety, mg, depression, feel, not, take, panic, be, year, life
+
+Topic 1 (n=416):
+migraine, pain, headache, not, day, take, mg, effect, sleep, work
+
+Topic 2 (n=414):
+not, year, drug, life, effect, work, day, be, time, medicine
+
+Topic 3 (n=396):
+day, take, not, effect, feel, mg, start, no, nausea, work
+
+Topic 4 (n=364):
+period, pill, month, birth, control, not, have, be, gain, weight
+
+Topic 5 (n=353):
+not, day, year, work, infection, be, eye, product, burn, use
+
+Topic 6 (n=345):
+work, not, year, time, be, smoke, no, great, life, day
+
+Topic 7 (n=337):
+pain, knee, not, injection, relief, work, doctor, day, year, be
+
+Topic 8 (n=333):
+feel, mg, take, not, day, week, start, anxiety, be, effect
+
+Topic 9 (n=299):
+period, bleed, cramp, not, insertion, be, month, insert, get, have
+
+Topic 10 (n=270):
+lose, weight, eat, lbs, pound, start, week, not, day, be
+
+Topic 11 (n=261):
+acne, skin, face, clear, not, month, be, pimple, bad, dry
+
+Topic 12 (n=253):
+stomach, diarrhea, take, not, pain, day, hour, drink, work, water
+
+Topic 13 (n=214):
+not, period, be, year, month, get, no, have, sex, week
+
+Topic 14 (n=196):
+acne, month, period, have, pill, not, birth, gain, control, be
