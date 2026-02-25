@@ -145,7 +145,6 @@ Example outputs:
 
 ---
 
-## Repository Structure
 drug-review-sentiment-topic-modeling/
 │
 ├── notebooks/
@@ -166,36 +165,44 @@ drug-review-sentiment-topic-modeling/
 ├── requirements.txt
 └── README.md
 
-### Execution Order
 
-dataset_and_label_design
+This structure separates experimental notebooks, computed outputs, and dependency specifications to ensure reproducibility and clarity.
 
-exploratory_data_analysis
+---
 
-text_preprocessing
+## Execution Workflow
 
-TF-IDF Representation
+For full reproducibility, notebooks should be executed in the following order:
 
-classification_models
+1. `dataset_and_label_design.ipynb`
+2. `exploratory_data_analysis.ipynb`
+3. `text_preprocessing.ipynb`
+4. `TF-IDF Representation.ipynb`
+5. `classification_models.ipynb`
+6. `topic_modeling.ipynb`
+7. `evaluation_and_comparison.ipynb`
+8. `error_analysis.ipynb`
 
-topic_modeling
+This sequential workflow ensures that preprocessing, representation learning, modeling, and evaluation stages are executed consistently.
 
-evaluation_and_comparison
+---
 
-error_analysis
+## Evaluation Rationale
 
-###Evaluation Rationale
+Model performance was assessed using complementary quantitative and interpretability-driven metrics.
 
-Macro F1-score was selected to ensure balanced evaluation across classes.
+**Macro F1-score** was selected to provide balanced performance evaluation across sentiment classes, preventing dominance of the majority class.
 
-Confusion matrices provide interpretability of classification errors.
+**Confusion matrices** were included to enable detailed inspection of false positives and false negatives, improving interpretability of classification behavior.
 
-NPMI coherence was used to assess semantic quality of extracted topics.
+**Normalized Pointwise Mutual Information (NPMI)** coherence was used to evaluate semantic consistency of extracted topics in topic modeling experiments.
 
-All conclusions are directly supported by empirical results.
+All analytical claims presented in the report are grounded in empirical results derived from these evaluation procedures.
 
-### Author
+---
 
-Saba Haile Asfha
-MSc Data Science
+## Author
+
+**Saba Haile Asfha**  
+MSc Data Science  
 University of Milano–Bicocca
