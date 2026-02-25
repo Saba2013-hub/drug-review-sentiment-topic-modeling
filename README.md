@@ -146,3 +146,56 @@ Example outputs:
 ---
 
 ## Repository Structure
+drug-review-sentiment-topic-modeling/
+│
+├── notebooks/
+│ ├── dataset_and_label_design.ipynb
+│ ├── exploratory_data_analysis.ipynb
+│ ├── text_preprocessing.ipynb
+│ ├── TF-IDF Representation.ipynb
+│ ├── classification_models.ipynb
+│ ├── topic_modeling.ipynb
+│ ├── evaluation_and_comparison.ipynb
+│ └── error_analysis.ipynb
+│
+├── results/
+│ ├── classification_metrics.csv
+│ ├── topic_words.txt
+│ └── figures/
+│
+├── requirements.txt
+└── README.md
+
+### Execution Order
+
+dataset_and_label_design
+
+exploratory_data_analysis
+
+text_preprocessing
+
+TF-IDF Representation
+
+classification_models
+
+topic_modeling
+
+evaluation_and_comparison
+
+error_analysis
+
+###Evaluation Rationale
+
+Macro F1-score was selected to ensure balanced evaluation across classes.
+
+Confusion matrices provide interpretability of classification errors.
+
+NPMI coherence was used to assess semantic quality of extracted topics.
+
+All conclusions are directly supported by empirical results.
+
+### Author
+
+Saba Haile Asfha
+MSc Data Science
+University of Milano–Bicocca
