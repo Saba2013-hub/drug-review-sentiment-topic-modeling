@@ -144,26 +144,27 @@ Example outputs:
 - NPMI coherence scores indicate moderate semantic consistency of extracted topics.  
 
 ---
-
+```{text}
 drug-review-sentiment-topic-modeling/
 │
 ├── notebooks/
-│ ├── dataset_and_label_design.ipynb
-│ ├── exploratory_data_analysis.ipynb
-│ ├── text_preprocessing.ipynb
-│ ├── TF-IDF Representation.ipynb
-│ ├── classification_models.ipynb
-│ ├── topic_modeling.ipynb
-│ ├── evaluation_and_comparison.ipynb
-│ └── error_analysis.ipynb
+│   ├── dataset_and_label_design.ipynb
+│   ├── exploratory_data_analysis.ipynb
+│   ├── text_preprocessing.ipynb
+│   ├── TF-IDF Representation.ipynb
+│   ├── classification_models.ipynb
+│   ├── topic_modeling.ipynb
+│   ├── evaluation_and_comparison.ipynb
+│   └── error_analysis.ipynb
 │
 ├── results/
-│ ├── classification_metrics.csv
-│ ├── topic_words.txt
-│ └── figures/
+│   ├── classification_metrics.csv
+│   ├── topic_words.txt
+│   └── figures/
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 This structure separates experimental notebooks, computed outputs, and dependency specifications to ensure reproducibility and clarity.
